@@ -1,6 +1,6 @@
-package service;
+package com.musicbox.musicbox.service;
 
-import model.Product;
+import com.musicbox.musicbox.model.Product;
 import java.util.List;
 
 

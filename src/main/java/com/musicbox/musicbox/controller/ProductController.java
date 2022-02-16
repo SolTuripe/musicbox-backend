@@ -1,4 +1,4 @@
-package controller;
+package com.musicbox.musicbox.controller;
 
 import java.util.List;
 
@@ -7,12 +7,11 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import model.Product;
-import service.ProductService;
+import com.musicbox.musicbox.model.Product;
+import com.musicbox.musicbox.service.ProductService;
 
 @RestController
 @RequestMapping("/products")
