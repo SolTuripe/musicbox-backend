@@ -11,17 +11,17 @@ import com.musicbox.musicbox.repository.ProductRepository;
 public class ProductServiceImp implements ProductService { 
 
     @Autowired
-private ProductRepository productRepository;
+    private ProductRepository productRepository;
 
-@Override
-public Product saveProduct(Product product) { 
+    @Override
+    public Product saveProduct(Product product) {
     return productRepository.save(product);
 }
 
-@Override
-public List <Product> getAlProducts(){
-return productRepository.findAll();
+    @Override
+    public List <Product> getAlProducts() {
+    return productRepository.findAll();
 
-}
+    }
 
 }

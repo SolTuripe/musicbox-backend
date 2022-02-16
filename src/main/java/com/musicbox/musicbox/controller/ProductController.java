@@ -18,6 +18,7 @@ import com.musicbox.musicbox.service.ProductService;
 @CrossOrigin
 
 public class ProductController {
+
     @Autowired
     private ProductService productService;
 
@@ -31,5 +32,4 @@ public class ProductController {
     public List<Product> getAllProducts() {
         return productService.getAlProducts();
     }
-
 }
