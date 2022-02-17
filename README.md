@@ -7,7 +7,7 @@ We have to create a marketplace with the minimum viable product:
 * A show page that shows more information about the ad
 
 In this repository we create the Api for our Music Box marketplace \
-[You can access the front of Music Box here](https://github.com/Eriry930/Music-Box)
+[You can access the front of Music Box here](https://github.com/zizi21v/MusicBox_Frontend)
 
 ## Project Setup 📌
 
