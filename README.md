@@ -9,13 +9,19 @@ We have to create a marketplace with the minimum viable product:
 In this repository we create the Api for our Music Box marketplace \
 [You can access the front of Music Box here](https://github.com/zizi21v/MusicBox_Frontend)
 
+## Tech Stack & Tools 🛠
+
+- JAVA
+- Spring Boot
+- Intellij IDEA
+
 ## Project Setup 📌
 
 We use Spring Boot
 
 * We start by creating the project with [Spring Initializr](https://start.spring.io/)
 ```
-Maven project and language Java
+Maven project
 Dependencies: Spring Web, Spring Data JPA and MySQL Driver
 ```
 
@@ -25,7 +31,7 @@ Dependencies: Spring Web, Spring Data JPA and MySQL Driver
 - You have to create a file with the name "application.properties" and fill with the information from your database, you can use the example file "application.properties.example"
 - Create a table named "products" in MySQL
 - Now you can run the Api
-- The path to use to connect the Api to the FrontEnd is: localhost:8080/products
+- The path to use to connect the FrontEnd to the Api is: localhost:8080/products
 ```
 
 ## Authors 👩‍💻
